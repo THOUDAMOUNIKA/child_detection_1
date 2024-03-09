@@ -20,7 +20,7 @@ Simple age and gender detector using Machine learning
 
 ## Sample Outputs:
 ### Sample Output 1:
-![Sample Output 1](https://github.com/utkarshshri1016/Age-Gender_Detector/blob/main/Output_Image_1.PNG)
+![Sample Output 1](ithub.com/THOUDAMOUNIKA/child_detection_1/blob/main/image1.jfif)
 ### Sample Output 2:
 ![Sample Output 2](https://github.com/utkarshshri1016/Age-Gender_Detector/blob/main/Output_Image_2.PNG)
 ### Sample Output 3:
