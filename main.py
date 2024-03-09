@@ -1,11 +1,13 @@
 import streamlit as st
 from PIL import Image
+from tensorflow.keras.models import load_model
+from tensorflow.keras.preprocessing import image
 import numpy as np
-from keras.models import load_model
+#from keras.models import load_model
 
 # Load the model
 model = load_model('Age_Sex_Detection.h5')
-model.save('Age_Sex_Detection.h5',save_format='h5')
+#model.save('Age_Sex_Detection.h5',save_format='h5')
 
 # Function to detect age and gender
 def detect(uploaded_file):
