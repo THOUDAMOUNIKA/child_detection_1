@@ -4,9 +4,14 @@ from tensorflow.keras.models import load_model
 from tensorflow.keras.preprocessing import image
 import numpy as np
 #from keras.models import load_model
+from keras.losses import mean_absolute_error
+
+
+
 
 # Load the model
 model = load_model('Age_Sex_Detection.h5')
+model.compile(loss=["binary_crossentropy", mean_absolute_error], optimizer="Adam", metrics=["accuracy", mean_absolute_error])
 #model.save('Age_Sex_Detection.h5',save_format='h5')
 
 # Function to detect age and gender
