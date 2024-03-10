@@ -5,9 +5,12 @@ from tensorflow.keras.preprocessing import image
 import numpy as np
 #from keras.models import load_model
 from keras.losses import mean_absolute_error
+import keras
 
-
-
+@keras.saving.register_keras_serializable()
+def custom_function():
+    # Your function implementation here
+    pass
 
 # Load the model
 model = load_model('Age_Sex_Detection.h5')
